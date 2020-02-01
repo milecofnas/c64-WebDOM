@@ -1,0 +1,192 @@
+body {
+    margin: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#barraNav {
+    height: 50px;
+    background-color: #1a75bc;
+    color: #fff;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.iconoNav {
+    width: 50px;
+    height: 50px;
+}
+.centro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#header {
+    width: 1000px;
+    margin: 15px 0px;
+    background-color: #fed201;
+    display: flex;
+}
+
+.imagen {
+    width: 4000px;
+    display: flex;
+}
+
+.imagen img {
+    width: 100%;
+    height: auto;
+}
+
+.texto {
+    padding: 30px 25px;
+}
+
+.texto h2 {
+    color: #1a75bc; 
+    font-weight: bold;
+    font-size: 36px;
+}
+
+.texto h5 {
+    color: grey;
+    text-transform: uppercase;
+}
+
+.texto p {
+    font-size: 13px;
+}
+
+#main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 200px;
+    /* margin-top: 50px; */
+}
+.contenedorTarjetas {
+    display: flex;
+    margin: 15px;
+}
+
+.fotosGatos {
+    width: 170px; 
+    height: 150px;
+    display: flex;
+}
+
+.fotosGatos img {
+    width: 100%;
+    height: auto;
+}
+
+.descripcion {
+    width: 170px;
+    height: 150px;
+    background-color: #fed201;
+    padding: 0 10px;
+    font-size: 11px;
+}
+
+.descripcion h3 {
+    color:  #1a75bc;
+    font-size: 16px;
+}
+
+.btn {
+    background: transparent;
+    border: 2px solid #1a75bc;
+    color: #1a75bc;
+    border-radius: 6px;
+    padding: 5px 15px;
+    font-size: 12px;
+    margin-top: 15px;
+}
+
+#footer {
+    height: 100px;
+    background-color:#fed201;
+}
+
+.icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px;
+}
+
+.textoFooter {
+    text-align: center;
+    margin: 15px;
+}
+
+.fa.fa-facebook-f {
+    padding: 0 15px;
+}
+.fa.fa-google {
+    padding: 0 15px;
+}
+.fa.fa-twitter {
+    padding: 0 15px;
+}
+.fa.fa-dribbble {
+    padding: 0 15px;
+}
+
+#myModal {
+width: 750px; 
+padding-bottom: 40px;
+background-color: white;
+position: fixed;
+top: 50px;
+margin-left: 50%;
+left: -375px;
+box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+}
+.tituloModal {
+    color: #1a75bc;
+    text-align: center;
+    font-size: 36px;
+}
+.imagenModal {
+    width: 250px; 
+}
+
+.imagenModal img {
+    width: 100%; 
+    height: auto;
+    padding: 5px;
+    margin: 0 40px;
+    border: 2px solid #fed201;
+}
+
+.modalFlex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.descModal {
+    width: 40%;
+    margin-top: -30px;
+    margin-left: 60px; 
+    padding: 0 0 0 20px;
+}
+#btnModal {
+    position: absolute; 
+    top: 50px; 
+    right: 30px;
+    color: #1a75bc;
+    background: transparent;
+    border: 1px solid #1a75bc;
+    border-radius: 6px;
+}
+.noMostrar {
+    display: none;
+}
+
+
+
