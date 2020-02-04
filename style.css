@@ -26,7 +26,7 @@ body {
 }
 #header {
     width: 1000px;
-    margin: 15px 0px;
+    margin: 25px 0px;
     background-color: #fed201;
     display: flex;
 }
@@ -59,14 +59,76 @@ body {
 .texto p {
     font-size: 13px;
 }
+#formulario{
+    width: 950px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+    border: 4px solid #fed201;
+}
+
+#formulario h2 {
+    color: #1a75bc;
+    font-size: 36px;
+    margin-top: 5px;
+}
+.form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+label  {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    margin: -5px;
+}
+
+label h3 {
+    color: #1a75bc;
+    font-size: 22px;
+}
+
+#formulario .estiloForm {
+    margin-left: 15px;
+}
+
+ #formulario .contacto {
+     margin: 10px;
+     font-size: 15px;
+     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+     padding: 5px;
+ }
+
+ .enviarForm {
+     padding: 5px 20px;
+     margin: 20px;
+     background-color: transparent;
+     border: 2px solid  #1a75bc;
+     border-radius: 6px;
+     color:#1a75bc;
+     font-size: 15px;
+     font-weight: bold;
+ }
+
+ .enviarForm:hover {
+     background-color: #fed201;
+     border: 2px solid #fed201;
+     color: white;
+     transition: all 1s;
+ }
+
 
 #main {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    margin: 50px 200px;
-    /* margin-top: 50px; */
+    margin: 20px 200px;
 }
 .contenedorTarjetas {
     display: flex;
@@ -77,35 +139,47 @@ body {
     width: 170px; 
     height: 150px;
     display: flex;
+    overflow: hidden;
 }
 
 .fotosGatos img {
     width: 100%;
     height: auto;
+    transition: all 3s;
+}
+
+.fotosGatos:hover img {
+    transform: scale(1.75)
 }
 
 .descripcion {
     width: 170px;
     height: 150px;
-    background-color: #fed201;
+    background-color: #1a75bc;
     padding: 0 10px;
     font-size: 11px;
 }
 
 .descripcion h3 {
-    color:  #1a75bc;
+    color: #fff;
     font-size: 16px;
+}
+
+.descripcion:hover{
+    background-color: #fed201;
+    transition: all 1s;
 }
 
 .btn {
     background: transparent;
-    border: 2px solid #1a75bc;
-    color: #1a75bc;
+    border: 2px solid #fff;
+    color: #fff;
     border-radius: 6px;
     padding: 5px 15px;
     font-size: 12px;
     margin-top: 15px;
 }
+
 
 #footer {
     height: 100px;

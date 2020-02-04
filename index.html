@@ -36,27 +36,51 @@
 
         </section>
     </div>
-        <section id="main">
+    <div class="centro">
+        <div id="formulario">
+            <h2>Elegí tu gatite</h2>
+            <form action="http://www.sos4patasbcn.es" method="POST" class="form">
+                <label for="pelaje">
+                    <h3> Pelaje </h3>
+                    <input type="checkbox" name="gates" value="negro" class="estiloForm">Negro
+                    <input type="checkbox" name="gates" value="blanco" class="estiloForm">Blanco
+                    <input type="checkbox" name="gates" value="gris" class="estiloForm">Gris
+                    <input type="checkbox" name="gates" value="naranja" class="estiloForm">Naranja
+                </label>
+                <label for="sexo">
+                    <h3>Sexo</h3>
+                    <input type="radio" name="sex" value="fem" class="estiloForm">Hembra
+                    <input type="radio" name="sex" value="masc" class="estiloForm">Macho
+                </label>
+                <label for="contacto">
+                    <h3>Datos de contacto</h3>
+                    <p> <input type="text" name="nombre" placeholder="Nombre" class="contacto"></p>
+                    <p><input type="text" name="apellido" placeholder="Apellido" class="contacto"></p>
+                    <p><input type="number" name="tel" placeholder="Telefono" class="contacto"></p>
+                </label>
+                <input type="submit" class="enviarForm">
 
-        </section>
-
-        <div id = "modalContainer">
-        
+            </form>
         </div>
+    </div>
 
-        <footer id="footer">
-            <div class = "icons">
+    <section id="main"></section>
+
+    <div id="modalContainer"></div>
+
+    <footer id="footer">
+        <div class="icons">
             <i class="fa fa-facebook-f"></i>
             <i class="fa fa-google"></i>
             <i class="fa fa-twitter"></i>
             <i class="fa fa-dribbble"></i>
         </div>
-        <div class = "textoFooter">
+        <div class="textoFooter">
             <p>2020 | All rights reserved</p>
         </div>
-        </footer>
+    </footer>
 
-    
+
 
     <script src="main.js"></script>
 </body>

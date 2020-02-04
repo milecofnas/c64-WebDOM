@@ -45,7 +45,7 @@ for (let i = 0; i < gatos.length; i++) {
     <div class = "fotosGatos">
         <img src = "${gatos[i].img}">
     </div>
-    <div class = "descripcion">
+    <div class= "descripcion">
         <h3> ${gatos[i].name} </h3>
         <p> ${gatos[i].shortDesc} </p> 
         <button class = "btn">Ver Mas</button>
